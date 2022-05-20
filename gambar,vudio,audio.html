@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styleeee.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Test Vidio Audio Gambar</title>
+    </head>
+    <Body>
+        <H1>BELAJAR AWAL PENGENALAN HTML I GAMBAR, AUDIO dan VIDEO</H1>
+        <H1>Multimedia dan Media Source dalam WEB</Source></H1>
+        <hr>
+        <ul>
+            <li>
+                <h2>Picture Responsive</h2>
+                <H2>Ukuran Akan Disesuaikan Sesuai Tampilan Html</H2>
+                <hr>
+                <picture>
+                    <source media = "(max-width: 600px)" srcset="picure1.jpg">
+                    <source media="(max-width: 1200px)" srcset="picure2.jpg">
+                    <img src="picure3.jpg">
+                </picture>
+            </li>
+            <li><h2>Video</h2>
+                <hr>
+                <video controls width="400" height="400"
+                    autoplay loop muted preload="auto"
+                    poster="poster.png">
+                    <source src="'Blue Bird' - ikimono - gakari (LYRIC) OP 3 Naruto Shippuden.mp4" type="video/mp4">
+                    <source src="'Blue Bird' - ikimono - gakari (LYRIC) OP 3 Naruto Shippuden.webm" type="video/webm">
+                   
+                </video>
+            </li>
+            <li>
+                <h2>Audio</h2>
+                <hr>
+                <audio controls >
+                    <source src="Blue Bird - ikimono - gakari (LYRIC) OP 3 Naruto Shippuden.mp3" type="audio/mp3">
+                </audio>
+            </li>
+        </ul>
+        
+    </Body>
+</html>
